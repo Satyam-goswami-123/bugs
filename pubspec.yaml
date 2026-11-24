@@ -1,0 +1,19 @@
+name: security_alerts_dashboard
+description: Security alerts dashboard for Flutter Web.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+  go_router: ^16.2.1
+  intl: ^0.20.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/alerts.json
