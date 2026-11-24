@@ -30,7 +30,7 @@ Before submitting, paste the complete output of `flutter --version` here and con
 - `lib/data/alert_repository.dart` — delayed JSON asset loading and simulated load error.
 - `lib/data/threat_names.dart` — one mapping from threat codes to readable names.
 - `lib/providers/alert_provider.dart` — shared app/alert state, counts, and resolve updates.
-- `lib/screens/dashboard_screen.dart` — summary cards and app list.
+- `lib/screens/dashboard_screen.dart` — overview cards and app list.
 - `lib/screens/alerts_screen.dart` — alert filters, sorting, and five-alert pagination.
 - `lib/screens/detail_screen.dart` — alert fields and resolve confirmation.
 - `lib/widgets/app_shell.dart` — shared page header and navigation.
@@ -57,4 +57,4 @@ Alert resolution is kept in memory and will reset when the app is reloaded. This
 
 ## Video
 
-Screen recording: **TODO — add a shareable Google Drive or unlisted YouTube link after recording the required walkthrough.**
+https://www.youtube.com/watch?v=satyamgoswami129
